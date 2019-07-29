@@ -34,7 +34,7 @@ features                                  :
 
   - title                                 : Designed for iOS and iPadOS 13
     description                           : TeXtonic has been designed and architected from the ground up with modern Apple technologies to enable a more powerful and stable LaTeX editing experience.
-    fontawesome_icon_name                 : apple
+    fontawesome_icon_name                 : bezier-curve
 
   - title                                 : Local Compiler
     description                           : Everything runs on your device. No need to setup a server, an internet connection, or to manually manage a TeXLive instillation.
