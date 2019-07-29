@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-{% include head.html %}
+ <link rel="stylesheet" href="/main.css">
 
-<style>
-.iPad{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  max-width: 800px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#grad1 {
-  height: 100%;
-  background-color: white; /* For browsers that do not support gradients */
-  background-image: linear-gradient(darkgrey, white); /* Standard syntax (must be last) */
-}
-</style>
+
+{% include head.html %}
 
 <body background=<div id="grad1"></div>
   <div class="headerBackground">
@@ -47,18 +33,10 @@
   </header>
 </div>
 </div>
-<center>
-<div class="appDescriptionContainer">
-    <p class ="appDescription">
-        {{ site.app_description }}
-    </p>
-</div>
-</center>
 
 
-                  <img src="assets/screenshot/105.png" alt="Screenshot of app" class="iPad">
+{{ content }}
 
-                    {% include features.html %}
                     {% include footer.html %}
                     {% include appstoreimages.html %}
                 </div>
