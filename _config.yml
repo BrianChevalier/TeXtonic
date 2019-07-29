@@ -4,7 +4,7 @@ ios_app_id                                :                                 # Re
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : presskit.zip                                # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/TeXtonic.jpg                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -17,12 +17,12 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Brian Chevalier                                
+your_name                                 : Brian Chevalier
 your_link                                 : https://github.com/BrianChevalier/
-your_city                                 : Tempe                                
+your_city                                 : Tempe
 email_address                             : feedback@TeXtonic.app
-facebook_username                         :                                           
-instagram_username                        : 
+facebook_username                         :
+instagram_username                        :
 twitter_username                          : TeXtonicApp
 github_username                           : BrianChevalier
 youtube_username                          :
@@ -31,11 +31,11 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
-    
+
   - title                                 : Standalone Implementation
     description                           : Everything runs on your device. No need to setup a server, an internet connection, or to manually manage an TeXLive instillation.
     fontawesome_icon_name                 : mobile
-    
+
   - title                                 : Robust Project Support
     description                           : TeXtonic was designed for working with complex multi-file projects. TeXtonic finds included files in your project providing tabs to quickly flip between files while still compiling from the root file.
     fontawesome_icon_name                 : folder-open
@@ -47,7 +47,7 @@ features                                  :
   - title                                 : "There's an App For That"
     description                           : TeXtonic uses standard components so that your files are available to other apps. Version control your documents with Working Copy app, generate your figures with Pythonista, or preview your documents with PDFViewer.
     fontawesome_icon_name                 : share-alt
-    
+
   - title                                 : Multiple Windows
     description                           : Open all your projects and PDF previews in separate windows.
     fontawesome_icon_name                 : window-restore
@@ -61,7 +61,7 @@ features                                  :
     description : "Engineered to work with standard accesibility technologies like: Voice Over, Voice Control, Dynamic Type, and more."
     fontawesome_icon_name : universal-access
 
-  - title                                 : Available on TestFlight 
+  - title                                 : Available on TestFlight
     description                           : "TeXtonic is available on <a href='https://testflight.apple.com/join/yevwlUs1'>TestFlight</a>."
     fontawesome_icon_name                 : vial
 
