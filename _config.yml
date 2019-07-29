@@ -10,7 +10,7 @@ presskit_download_link                    : presskit.zip                        
 app_icon                                  : /assets/TeXtonic.jpg                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : TeXtonic                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : A LaTeX editor and compiler for iOS and iPadOS. Coming soon.
+app_description                           : A modern LaTeX editor and compiler for iOS and iPadOS. Coming soon.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -18,7 +18,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Brian Chevalier
-your_link                                 : https://github.com/BrianChevalier/
+your_link                                 : https://twitter.com/_BrianChevalier
 your_city                                 : Tempe
 email_address                             : feedback@TeXtonic.app
 facebook_username                         :
@@ -32,8 +32,12 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Standalone Implementation
-    description                           : Everything runs on your device. No need to setup a server, an internet connection, or to manually manage an TeXLive instillation.
+  - title                                 : Designed for iOS and iPadOS 13
+    description                           : TeXtnoic has been designed and architected from the ground up with modern Apple technologies to enable a more powerful and stable LaTeX editing experience.
+    fontawesome_icon_name                 : app-store-ios
+
+  - title                                 : Local Compiler
+    description                           : Everything runs on your device. No need to setup a server, an internet connection, or to manually manage a TeXLive instillation.
     fontawesome_icon_name                 : mobile
 
   - title                                 : Robust Project Support
@@ -61,12 +65,8 @@ features                                  :
     description : "Engineered to work with standard accesibility technologies like: Voice Over, Voice Control, Dynamic Type, and more."
     fontawesome_icon_name : universal-access
 
-  - title                                 : Available on TestFlight
-    description                           : "TeXtonic is available on <a href='https://testflight.apple.com/join/yevwlUs1'>TestFlight</a>."
-    fontawesome_icon_name                 : vial
-
   - title                                 : Suggestion box
-    description                           : "Need more packages? Found a bug? Want to suggest a feature? Open an <a href='https://github.com/brianchevalier/textonic-issue-tracker'>issue</a>."
+    description                           : "App not meeting your needs? Found a bug? Want to suggest a feature? Open an <a href='https://github.com/brianchevalier/textonic-issue-tracker'>issue</a>."
     fontawesome_icon_name                 : envelope-open-text
 
 
