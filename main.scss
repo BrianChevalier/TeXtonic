@@ -3,6 +3,7 @@
 ---
 
 $body-color: {{ site.body_background_color }};
+$drop-shadow: none;
 
 $header-image: "{{ site.cover_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
